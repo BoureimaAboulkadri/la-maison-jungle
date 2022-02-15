@@ -1,59 +1,78 @@
+import monstera from '../assets/monstera.jpg'
+
 export const plantList = [
 	{
 		name: 'monstera',
 		category: 'classique',
 		id: '1ed',
-		isBestsale :false
+		isBestSale: true,
+		light: 2,
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'ficus lyrata',
 		category: 'classique',
 		id: '2ab',
-		isBestSale: true 
-		
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'pothos argenté',
 		category: 'classique',
 		id: '3sd',
-		isBestSale:false
+		light: 1,
+		water: 2,
+		cover: monstera
 	},
 	{
-		nme: 'yocca ',
+		name: 'yucca',
 		category: 'classique',
 		id: '4kk',
-		isBestSale:true
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'olivier',
-		category: 'exterieur',
+		category: 'extérieur',
 		id: '5pl',
-		isBestSale :true
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
-		name: 'géraninum',
-		category: 'exterieur',
-		id: '6ue',
-		isBestSale : false
+		name: 'géranium',
+		category: 'extérieur',
+		id: '6uo',
+		light: 2,
+		water: 2,
+		cover: monstera
 	},
 	{
-		name: 'baselique',
-		category: 'exterieur',
+		name: 'basilique',
+		category: 'extérieur',
 		id: '7ie',
-		isBestSale:null
+		isBestSale: true,
+		light: 2,
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'aloe',
 		category: 'plante grasse',
 		id: '8fp',
-		isBestSale:true
+		light: 2,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'succulente',
 		category: 'plante grasse',
 		id: '9vn',
-		isBestSale:false
+		light: 2,
+		water: 1,
+		cover: monstera
 	}
-
-
 ]
